@@ -1,0 +1,14 @@
+{application, plotter,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  erlkafka
+                 ]},
+  {mod, { plotter_app, []}},
+  {env, []}
+ ]}.
